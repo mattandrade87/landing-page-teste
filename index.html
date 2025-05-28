@@ -2,62 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mion Tech IA Solutions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Vite + React + TS</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
   </head>
   <body>
-    <div class="main-section">
-      <div class="content">
-        <div class="text-content">
-          <h1>Mion Tech IA Solutions</h1>
-          <p class="subtitle">
-            Transformando o futuro com inteligência artificial
-          </p>
-        </div>
-        <div id="vanta-background"></div>
-      </div>
-    </div>
-
-    <div class="company-section">
-      <h2>Sobre Nós</h2>
-      <p>
-        Somos uma empresa líder em soluções de Inteligência Artificial, focada
-        em transformar negócios através da inovação tecnológica.
-      </p>
-      <p>
-        Nossa missão é desenvolver soluções inteligentes que impulsionam o
-        crescimento e a eficiência dos nossos clientes.
-      </p>
-      <p>
-        Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
-        serviços personalizados para atender às necessidades específicas de cada
-        cliente.
-      </p>
-    </div>
-
-    <script>
-      VANTA.TRUNK({
-        el: "#vanta-background",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0xf70a0a,
-        backgroundColor: 0x0,
-      });
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
