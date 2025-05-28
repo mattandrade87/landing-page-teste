@@ -25,7 +25,7 @@ export default function VantaBackground() {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      color: 0x150ae8,
+      color: 0x9e00ff,
       backgroundColor: 0x000000,
       spacing: 1.5,
       chaos: 2.0,
@@ -34,15 +34,17 @@ export default function VantaBackground() {
     return () => {
       if (effect) effect.destroy();
     };
-  }, []); // Removido vantaEffect da dependência
+  }, []);
 
   return (
     <div
       ref={vantaRef}
       style={{
-        width: "100%",
+        width: "100vw",
         height: "100vh",
-        position: "absolute",
+        position: "fixed",
+        top: 0,
+        left: 0,
         zIndex: -1,
       }}
     />
