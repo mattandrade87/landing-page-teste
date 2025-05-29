@@ -41,7 +41,7 @@ export default function VantaBackground() {
       ref={vantaRef}
       style={{
         width: "100vw",
-        height: "100vh",
+        height: "70vh",
         position: "fixed",
         top: 0,
         left: 0,
