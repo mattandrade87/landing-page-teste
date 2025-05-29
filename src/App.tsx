@@ -1,12 +1,14 @@
 import "./App.css";
-import HeroTitle from "./component/HeroTitle";
-import VantaBackground from "./component/VantaBackground";
+import Background from "./components/Background";
+import HeroTitle from "./components/HeroTitle";
+// import VantaBackground from "./components/VantaBackground";
 
 function App() {
   return (
     <>
-      <VantaBackground />
+      {/* <VantaBackground />*/}
       <HeroTitle />
+      <Background />
     </>
   );
 }
